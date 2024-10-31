@@ -1,0 +1,123 @@
+/******************** Fontes usadas */
+@import url('https://fonts.cdnfonts.com/css/tt-hoves-pro-trial');
+@import url('clash-grotesk.css');
+
+:root {
+    --font-grande: 'TT Hoves Pro Trial', sans-serif;
+    --font-pequena: 'ClashGrotesk-Light', sans-serif;
+    --color-gray: #a7a7a7;
+    --color-white: #fff;
+    --color-bluecheat: #7aace1;
+    --color-black: #111417;;
+    --color-blueescuro: #0098fd;
+}
+
+
+
+.container-sobre{
+    background-color: #fff;
+    height: 100vh;
+}
+
+/*inico*/
+
+.inicio-sobre {
+    width: 100%;
+    height: 100%;
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-sobre {
+    width: 100%;
+    height: 100%;
+    color: var(--color-black);
+}
+
+.conteudo-sobre {
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-equipe h1 {
+    font-size: 60px;
+    font-family: var(--font-grande);
+    font-weight: bolder;
+    line-height: 10px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.paragrafo-equipe p{
+    font-size: 28px;
+    color: var(--color-black);
+    font-family: var(--font-pequena);
+    text-align: center;
+}
+
+/*foto redonda*/
+
+.foto-da-equipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 30px;
+}
+
+.foto-equipe {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-redonda {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--color-black);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.foto-equipe h2 {
+    color: var(--color-bluecheat);
+    font-size: 33px;
+    font-family: var(--font-grande);
+    margin-top: 15px;
+}
+
+.foto-equipe p {
+    color: var(--color-black);
+    font-weight: lighter;
+    font-family: var(--font-pequena);
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.btn-sobre{
+    margin: 60px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    background-color: var(--color-black) ;
+    color: var(--color-white);
+    font-weight: bold;
+    font-family: var(--font-grande);
+    margin-left: 1050px;
+}
